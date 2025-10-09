@@ -43,11 +43,10 @@ const int SERVO_CLOSE_US = 2000;
 const int SERVO_STOP_US = 1500;
 
 // ==== เวลามอเตอร์แยกซ้าย-ขวา ==== 
-const int MOTOR_LEFT_OPEN_DURATION  = 14800; // ms (เดิม)
-const int MOTOR_LEFT_CLOSE_DURATION = 13600; // ms (เดิม)
-const int MOTOR_RIGHT_OPEN_DURATION  = 5500; // ms (ใหม่ 6.5 วิ)
-const int MOTOR_RIGHT_CLOSE_DURATION = 5500; // ms (ใหม่ 6.5 วิ)
-
+const int MOTOR_LEFT_OPEN_DURATION  = 14800; 
+const int MOTOR_LEFT_CLOSE_DURATION = 13600; 
+const int MOTOR_RIGHT_OPEN_DURATION  = 5500; 
+const int MOTOR_RIGHT_CLOSE_DURATION = 5500; 
 const unsigned long DHT_READ_INTERVAL = 2000;
 const unsigned long IR_TIMEOUT = 200; // ms
 
