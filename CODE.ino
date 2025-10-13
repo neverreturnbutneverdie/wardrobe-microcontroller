@@ -65,7 +65,7 @@ UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 const float TEMP_MIN = 20.0;
 const float TEMP_MAX = 35.0;
 const float HUM_MIN  = 60.0;
-const float HUM_MAX  = 80.0;
+const float HUM_MAX  = 85.0;
 
 DHT dht(DHTPIN, DHTTYPE); 
 Ultrasonic ultrasonicLeft(TRIG_LEFT, ECHO_LEFT);
